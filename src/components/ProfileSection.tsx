@@ -43,6 +43,30 @@ const memberStyles: Record<string, {
     typeBorder: "rgba(112,56,248,0.28)",
     headerBg: "linear-gradient(135deg, #CC0000 0%, #7038F8 100%)",
   },
+  kimura: {
+    typeName: "FIGHTING",
+    typeEmoji: "🥊",
+    typeColor: "#C03028",
+    typeBg: "rgba(192,48,40,0.10)",
+    typeBorder: "rgba(192,48,40,0.28)",
+    headerBg: "linear-gradient(135deg, #8B0000 0%, #C03028 100%)",
+  },
+  sato: {
+    typeName: "GHOST",
+    typeEmoji: "👻",
+    typeColor: "#705898",
+    typeBg: "rgba(112,88,152,0.10)",
+    typeBorder: "rgba(112,88,152,0.28)",
+    headerBg: "linear-gradient(135deg, #705898 0%, #9B78D8 100%)",
+  },
+  tatsuyama: {
+    typeName: "FAIRY",
+    typeEmoji: "🧚",
+    typeColor: "#C4527A",
+    typeBg: "rgba(196,82,122,0.10)",
+    typeBorder: "rgba(196,82,122,0.28)",
+    headerBg: "linear-gradient(135deg, #C4527A 0%, #EE99AC 100%)",
+  },
 };
 
 const cardLayout = [
