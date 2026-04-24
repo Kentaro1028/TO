@@ -79,6 +79,12 @@ const memberDetailStyles: Record<string, {
     typeBorder: "rgba(196,82,122,0.28)",
     headerBg: "linear-gradient(135deg, #C4527A 0%, #EE99AC 100%)",
   },
+  okada: {
+    typeName: "STEEL",    typeEmoji: "⚙️",
+    typeColor: "#3A7A90", typeBg: "rgba(58,122,144,0.10)",
+    typeBorder: "rgba(58,122,144,0.28)",
+    headerBg: "linear-gradient(135deg, #2C5F72 0%, #3A7A90 100%)",
+  },
 };
 
 export default function MemberDetailClient({ member }: { member: Member }) {
