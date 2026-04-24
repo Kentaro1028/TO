@@ -34,8 +34,11 @@ const MEMBER_ORDER_OVERRIDE: Record<string, number> = {
 // タグを完全に上書きするメンバー（自動解析を無視）
 const MEMBER_TAGS_OVERRIDE: Record<string, string[]> = {
   kimura:   ["精密なる約款解釈と校閲の審美眼", "キックボクシング", "相撲観戦"],
+  okada:    ["モビリティ・変革のアーキテクト", "締めは日本酒", "大三元"],
   kuriyama: ["トラブルシューティングの鬼", "こだわりおじさん", "ほぼ帰宅部", "ほぼ栗"],
   kageyama: ["ハイパー・勢い先行PM", "エンジニアを名乗りたい", "和歌山の星"],
+  sato:     ["ハイパー交通整理・ドキュメンテーション", "たまごっちの親", "じつはメンタル弱"],
+  tatsuyama:["自動車（物損）関連 ＆ 庶務の全方位サポート", "日本2位のみかん県", "松山商業は野球強い"],
 };
 
 const MEMBER_COLORS: Record<string, { color: string; bgLight: string }> = {
