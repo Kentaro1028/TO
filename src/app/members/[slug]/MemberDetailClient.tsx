@@ -50,10 +50,10 @@ const memberDetailStyles: Record<string, {
     headerBg: "linear-gradient(135deg, #3354CC 0%, #5B8DEF 100%)",
   },
   kuriyama: {
-    typeName: "PSYCHIC",  typeEmoji: "🔮",
+    typeName: "PSYCHIC / POISON", typeEmoji: "🔮☠️",
     typeColor: "#A040A0", typeBg: "rgba(160,64,160,0.10)",
     typeBorder: "rgba(160,64,160,0.28)",
-    headerBg: "linear-gradient(135deg, #7038F8 0%, #A040A0 100%)",
+    headerBg: "linear-gradient(135deg, #7038F8 0%, #A040A0 50%, #6B3070 100%)",
   },
   kageyama: {
     typeName: "DRAGON",   typeEmoji: "🐉",
