@@ -20,6 +20,17 @@ const MEMBER_EXTRA_TAGS: Record<string, string[]> = {
   irie: ["ヤンキー茶髪", "ドクターフィッシュ"],
 };
 
+// 表示順を上書きするメンバー（数値が小さいほど前）
+const MEMBER_ORDER_OVERRIDE: Record<string, number> = {
+  kimura:   1,
+  okada:    2,
+  irie:     3,
+  kuriyama: 4,
+  kageyama: 5,
+  sato:     6,
+  tatsuyama:7,
+};
+
 // タグを完全に上書きするメンバー（自動解析を無視）
 const MEMBER_TAGS_OVERRIDE: Record<string, string[]> = {
   kuriyama: ["トラブルシューティングの鬼", "こだわりおじさん", "ほぼ帰宅部", "ほぼ栗"],
@@ -110,7 +121,7 @@ export function getAllMembers(): Member[] {
 
       return {
         slug,
-        order: parseOrder(content),
+        order: MEMBER_ORDER_OVERRIDE[slug] ?? parseOrder(content),
         name,
         nameEn,
         catchphrase: parseCatchphrase(content),
